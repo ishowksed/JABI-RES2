@@ -1,0 +1,51 @@
+ <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Jabi Navigation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 gap-4 me-4">
+                <li class="nav-item">
+                <a class="nav-link rounded px-3 btn btn-light" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link active" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-5">
+        <div class="card shadow p-5 col-sm-5 mx-auto">
+            <h3 class="text-center">Login</h3>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+            <button class="btn btn-primary mt-3"> <a href="HOMEPAGE JABI.html" class="text-decoration-none text-white">Login</a></button>
+            <p class="text-center">Don't have an account yet? Create account <a href="signup.html" class="text-decoration-none">here.</a></p>
+        </div>
+    </div>
+
+<input type="search" class="form-control me-2" placeholder="Search" aria-label="Search">
